@@ -1,6 +1,6 @@
 
 
-### new one
+### drowdown included version 1
 
     class HomeSearchContainer extends StatefulWidget {
         @override
@@ -86,3 +86,29 @@
             );
         }
         }
+
+## dropdown version 2 no underline
+
+    DropdownButton<String>(
+      // value: value,
+      icon: const Icon(Icons.arrow_downward),
+      iconSize: 24,
+      underline: SizedBox(),
+      // elevation: 16,
+      // style: const TextStyle(color: Colors.deepPurple),
+      // underline: Container(
+      //   height: 2,
+      //   color: Colors.deepPurpleAccent,
+      // ),
+      onChanged: (newValue) {
+        value = press(newValue);
+        setState(() {});
+      },
+      items: <String>['One', 'Two', 'Free', 'Four']
+          .map<DropdownMenuItem<String>>((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+          child: Text(value),
+        );
+      }).toList(),
+    );
