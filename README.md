@@ -48,3 +48,10 @@ A new Flutter project.
     }
     }
 
+
+
+# images 
+
+![home page](https://github.com/riyadzaigirdar/flutter-surfing-app/blob/master/1.png)
+
+![detail page](https://github.com/riyadzaigirdar/flutter-surfing-app/blob/master/2.png)
