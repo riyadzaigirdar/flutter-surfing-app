@@ -55,3 +55,4 @@ A new Flutter project.
 ![home page](https://github.com/riyadzaigirdar/flutter-surfing-app/blob/master/ss/1.png)
 
 ![detail page](https://github.com/riyadzaigirdar/flutter-surfing-app/blob/master/ss/2.png)
+
